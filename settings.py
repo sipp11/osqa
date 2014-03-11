@@ -114,6 +114,7 @@ INSTALLED_APPS = [
     'django.contrib.sitemaps',
     'django.contrib.messages',
     'forum',
+    'raven.contrib.django.raven_compat',
 ]
 
 if DEBUG:
